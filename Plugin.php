@@ -84,7 +84,7 @@ class cosUploadV5_Plugin implements Typecho_Plugin_Interface
         $region = new Typecho_Widget_Helper_Form_Element_Radio('region',
             array(
                 'ap-beijing-1' => _t('北京一区（华北）'),
-                'ap-beijing	' => _t('北京'),
+                'ap-beijing' => _t('北京'),
                 'ap-shanghai' => _t('上海（华东）'),
                 'ap-guangzhou' => _t('广州（华南）'),
                 'ap-chengdu' => _t('成都（西南）'),
