@@ -97,6 +97,9 @@ class cosUploadV5_Plugin implements Typecho_Plugin_Interface
                 'ap-seoul' => _t('首尔'),
                 'na-siliconvalley' => _t('硅谷'),
                 'na-ashburn' => _t('弗吉尼亚'),
+                'ap-shenzhen-fsi' => _t('深圳金融'),
+                'ap-shanghai-fsi' => _t('上海金融'),
+                'ap-beijing-fsi' => _t('北京金融'),
             ),
             'ap-guangzhou',
             _t('选择bucket节点')
