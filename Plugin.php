@@ -100,6 +100,7 @@ class cosUploadV5_Plugin implements Typecho_Plugin_Interface
                 'ap-shenzhen-fsi' => _t('深圳金融'),
                 'ap-shanghai-fsi' => _t('上海金融'),
                 'ap-beijing-fsi' => _t('北京金融'),
+                'ap-nanjing' => _t('南京'),
             ),
             'ap-guangzhou',
             _t('选择bucket节点')
