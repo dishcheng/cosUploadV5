@@ -153,17 +153,20 @@ class cosUploadV5_Plugin implements Typecho_Plugin_Interface
         $fileName = time() . '.' . $ext;
         //cos上传文件的路径+名称
         $newPath=$filePath.$fileName;
-        //如果没有临时文件，则退出
-        if (!isset($file['tmp_name'])) return false;
         //获取插件参数
         $options = Typecho_Widget::widget('Widget_Options')->plugin('cosUploadV5');
-
+        
+        //如果没有临时文件名检查是否有二进制流，如果都没有则返回失败
+        if(isset($file['tmp_name'])){
+          $srcPath = $file['tmp_name'];
+          $handle = fopen($srcPath, "r");
+          $contents = fread($handle, $file['size']);//获取二进制数据流
+          fclose($handle);}
+        elseif(isset($file['bytes'])){$contents = $file['bytes'];} //无临时文件，有二进制流直接上传二进制流
+        else{return false;}
+        
         //初始化cos
         $cos_object = self::init($options);
-        $srcPath = $file['tmp_name'];
-        $handle = fopen($srcPath, "r");
-        $contents = fread($handle, $file['size']);//获取二进制数据流
-        fclose($handle);
         $cos_object->upload($options->bucket, $newPath, $contents);
 
         return array(
