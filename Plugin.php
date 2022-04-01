@@ -24,7 +24,7 @@ class cosUploadV5_Plugin implements Typecho_Plugin_Interface
         //上传
         Typecho_Plugin::factory('Widget_Upload')->uploadHandle = array('cosUploadV5_Plugin', 'uploadHandle');
         //修改
-        Typecho_Plugin::factory('Widget_Upload')->modifyHandle = array('cosUploadV5_Plugin', 'modifyHandle');
+        //Typecho_Plugin::factory('Widget_Upload')->modifyHandle = array('cosUploadV5_Plugin', 'modifyHandle');
         //删除
         Typecho_Plugin::factory('Widget_Upload')->deleteHandle = array('cosUploadV5_Plugin', 'deleteHandle');
         //路径参数处理
