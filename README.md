@@ -7,9 +7,3 @@
 typecho默认上传目录：$filePath = '/' . 'usr' . '/' . 'uploads' . '/' . date('Y') . '/' . date('m') . '/';
 
 修改$filePath变量即可
-
-
-[typecho<=1.1 下载](https://github.com/dishCheng/cosUploadV5)
-
-
-[typecho==1.2 下载 ](https://github.com/dishcheng/cosUploadV5/tree/typecho_1.2)
