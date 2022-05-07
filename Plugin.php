@@ -4,7 +4,7 @@
  *
  * @package cosUploadV5
  * @author 菜菜子
- * @version 3.1
+ * @version 3.2
  * @link https://www.cc430.cn/index.php/archives/458/
  * @date 2018.4.1
  */
