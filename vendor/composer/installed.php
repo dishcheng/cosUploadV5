@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'bb90057dee1dcabecb28b6f79757f4512346fd55',
+    'reference' => '59111c7bc68488f32f40a672bb9b39db441c9feb',
     'name' => 'dishcheng/cos-upload-v5',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'bb90057dee1dcabecb28b6f79757f4512346fd55',
+      'reference' => '59111c7bc68488f32f40a672bb9b39db441c9feb',
     ),
     'guzzlehttp/command' => 
     array (
@@ -31,12 +31,12 @@
     ),
     'guzzlehttp/guzzle' => 
     array (
-      'pretty_version' => '7.4.1',
-      'version' => '7.4.1.0',
+      'pretty_version' => '7.4.5',
+      'version' => '7.4.5.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'ee0a041b1760e6a53d2a39c8c34115adc2af2c79',
+      'reference' => '1dd98b0564cb3f6bd16ce683cb755f94c10fbd82',
     ),
     'guzzlehttp/guzzle-services' => 
     array (
@@ -58,12 +58,12 @@
     ),
     'guzzlehttp/psr7' => 
     array (
-      'pretty_version' => '2.1.0',
-      'version' => '2.1.0.0',
+      'pretty_version' => '2.4.0',
+      'version' => '2.4.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '089edd38f5b8abba6cb01567c2a8aaa47cec4c72',
+      'reference' => '13388f00956b1503577598873fffb5ae994b5737',
     ),
     'guzzlehttp/uri-template' => 
     array (
@@ -124,12 +124,12 @@
     ),
     'qcloud/cos-sdk-v5' => 
     array (
-      'pretty_version' => 'v2.5.5',
-      'version' => '2.5.5.0',
+      'pretty_version' => 'v2.5.6',
+      'version' => '2.5.6.0',
       'aliases' => 
       array (
       ),
-      'reference' => '40e51efc05d5addeb9029db7840846809bd666c4',
+      'reference' => '607ee49d372a799964206b6ae0a9eb2816201c42',
     ),
     'ralouphie/getallheaders' => 
     array (
@@ -142,21 +142,21 @@
     ),
     'symfony/deprecation-contracts' => 
     array (
-      'pretty_version' => 'v3.0.0',
-      'version' => '3.0.0.0',
+      'pretty_version' => 'v2.5.2',
+      'version' => '2.5.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'c726b64c1ccfe2896cb7df2e1331c357ad1c8ced',
+      'reference' => 'e8b495ea28c1d97b5e0c121748d6f9b53d075c66',
     ),
     'symfony/polyfill-php80' => 
     array (
-      'pretty_version' => 'v1.25.0',
-      'version' => '1.25.0.0',
+      'pretty_version' => 'v1.26.0',
+      'version' => '1.26.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '4407588e0d3f1f52efb65fbe92babe41f37fe50c',
+      'reference' => 'cfa0ae98841b9e461207c13ab093d76b0fa7bace',
     ),
   ),
 );
